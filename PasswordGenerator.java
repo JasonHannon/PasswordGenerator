@@ -3,11 +3,11 @@ import java.util.*;
 public class MyClass {
     public static void main(String args[]) {
         
-      String numbers = "123456789"; //Create string of numbers
+      String numbers = "0123456789"; //Create string of numbers
       String letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"; //Create string of letters
       String password = ""; //Create variable to store each randomly generated password
       
-      int input = 0, num_count = 0, char_count = 0, array_count = 0; //
+      int input = 0, num_count = 0, char_count = 0, array_count = 0; //Initialize integers
       
       Random rand = new Random(); //Random object to generate random numbers and letters
       
